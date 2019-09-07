@@ -1,14 +1,40 @@
 // Variables and Mixins
-@import 'variables.less';
-@import 'mixins.less';
+@import "variables.less";
+@import "mixins.less";
 
 // Reset and Global Styles
-@import 'reset.less';
-@import 'global.less';
+@import "reset.less";
+@import "global.less";
 
 // Reusable components
-@import 'navigation.less';
-@import 'footer.less';
+@import "navigation.less";
+@import "footer.less";
 
 // Page Specific
-@import 'home-page.less';
+@import "home-page.less";
+
+button {
+  text-align: center;
+  margin-left: 25%;
+  text-decoration: none;
+  background: none;
+  width: 50%;
+  background-color: beige;
+}
+input {
+  margin-left: 42%;
+  text-align: center;
+}
+.btn {
+  background: #fe9;
+  border-radius: 1em;
+  display: inline-block;
+  padding: 1em;
+  transform: scale(0.9);
+  transform-origin: 0 0;
+  transition: transform 0.6s;
+}
+
+.large {
+  transform: scale(1.3);
+}
